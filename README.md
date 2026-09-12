@@ -48,6 +48,13 @@ library is [kicad-mcp-layer](https://github.com/ShamanAndrey/kicad-mcp-layer); t
 workspace that sets it up. Its tool reference is `kicad-mcp-layer/docs/tools.md`, the authoring API
 `kicad-mcp-layer/docs/design-api.md`.
 
+## A word to visitors
+
+This whole stack stands on KiCad, which is free, open source, and funded by donations. Its developers'
+plans for the next release, an API for the schematic editor among them, would let this project do far
+more than it does today. Please visit [kicad.org](https://www.kicad.org/) and
+[donate to KiCad](https://www.kicad.org/donate/).
+
 ## Licence
 
 MIT, see [LICENSE](LICENSE); `kicad-mcp-layer` is MIT under its own LICENSE. Datasheets, reference designs
