@@ -1,0 +1,6 @@
+# Line endings stay LF in the repository whatever the machine writes; KiCad and the writers emit LF.
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.step binary
+*.wrl binary

@@ -1,0 +1,33 @@
+# The boards. Every project is its own private repository and is not published with the stack.
+projects/
+
+# The library is its own repository; bootstrap.py clones it here (and renames the old kicad-layer/ folder).
+kicad-mcp-layer/
+kicad-layer/
+
+# Binaries the user fetches: FreeRouting and its Java runtime. tools/README.md says where.
+tools/*
+!tools/README.md
+
+# The research folder is the author's own: the document library (datasheets belong to their manufacturers),
+# notes, fact sheets, trials, clones. Not published; bring your own documents with doc_fetch.
+research/
+
+# This machine: the MCP registration with its absolute paths (copy .mcp.json.example), Claude Code's
+# local permissions, and the list of this machine's boards.
+.mcp.json
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Caches and build leftovers, anywhere.
+.kicad-layer/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+_backup-*/
+_preview/
+_staging/
+.history/
+~*.lck
+*.kicad_prl

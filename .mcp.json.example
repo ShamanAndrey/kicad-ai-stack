@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "kicad-mcp-layer": {
+      "command": "<absolute path to>/KiCad/kicad-mcp-layer/.venv/Scripts/python.exe",
+      "args": ["-m", "kicad_layer"],
+      "env": {
+        "KICAD_LAYER_WORKSPACE": "<absolute path to>/KiCad",
+        "KICAD_LAYER_MODE": "readonly",
+        "KICAD_LAYER_TOOLS": "core"
+      }
+    }
+  }
+}
